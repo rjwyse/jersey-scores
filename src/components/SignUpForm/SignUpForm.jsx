@@ -30,7 +30,7 @@ export default class SignUpForm extends Component {
               this.props.setUser(user)
               console.log(user)
             } catch {
-              // An error occurred 
+
               this.setState({ error: 'Sign Up Failed - Try Again' });
             }
           };
